@@ -9,7 +9,7 @@ export function App(): React.JSX.Element {
         <div className="App">
             <h1>This is header text</h1>
             <img
-                src={pokemon as string}
+                src={pokemon}
                 alt="POKEMON"
                 style={{ width: "200px", height: "auto" }}
             />
